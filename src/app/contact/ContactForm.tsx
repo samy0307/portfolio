@@ -5,7 +5,6 @@ import {
   Form,
   FormField,
   FormItem,
-  FormLabel,
   FormControl,
   FormMessage,
 } from "@/components/ui/form";
@@ -16,7 +15,7 @@ export default function UserForm() {
   const form = useForm();
 
   return (
-    <div className=" mt-10 p-6 bg-white shadow-lg rounded-lg border">
+    <div className=" mt-10 p-6 shadow-lg rounded-lg border">
       <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
       <p className="mb-6">
         Fill out the form to contact me, and I will get back to you soon.

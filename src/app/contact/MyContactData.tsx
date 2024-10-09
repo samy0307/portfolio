@@ -1,6 +1,6 @@
 export default function MyContactData() {
   return (
-    <div className="max-w-md mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg border">
+    <div className="max-w-md mx-auto mt-10 p-6 shadow-lg rounded-lg border">
       <h2 className="text-2xl font-semibold mb-4 underline">Contact</h2>
       <div className="border p-4 rounded-md shadow-sm mb-6">
         <h3 className="text-lg font-semibold mb-2">Phone:</h3>
