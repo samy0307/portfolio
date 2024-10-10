@@ -41,10 +41,10 @@ body {
     --radius: 0.5rem;
   }
   .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
+    --background: 240 15% 30%; /* Heller dunkelgrauer Hintergrund */
+    --foreground: 240 100% 90%; /* Hellerer Text */
+    --card: 240 20% 40%; /* Hellere dunkelgraue Kartenfarbe */
+    --card-foreground: 240 100% 90%; /* Heller Text auf dunklen Karten */
     --popover: 0 0% 3.9%;
     --popover-foreground: 0 0% 98%;
     --primary: 0 0% 98%;
@@ -57,8 +57,8 @@ body {
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
+    --border: 240 25% 50%; /* Hellere dunkelgraue Border */
+    --input: 240 25% 40%; /* Hellere dunkelgraue Eingabefelder */
     --ring: 0 0% 83.1%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;

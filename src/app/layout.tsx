@@ -1,4 +1,5 @@
-import NavbarCenter from "./components/navBar/NavbarComponent";
+import Navbar from "./components/navBar/NavbarComponent";
+import SandwichMenu from "./components/navBar/SandwichMenu";
 import { ThemeProvider } from "./components/navBar/ThemeProvider";
 import "./globals.css";
 import { ReactNode } from "react";
@@ -13,15 +14,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <html lang="en" suppressHydrationWarning>
         <head />
         <body>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <NavbarCenter />
-            {children}
-          </ThemeProvider>
+          <div className="min-h-screen flex flex-col">
+            <ThemeProvider attribute="class" defaultTheme="system">
+              <SandwichMenu />
+              <div className="hidden sm:block">
+                <Navbar />
+              </div>
+
+              {children}
+            </ThemeProvider>
+          </div>
         </body>
       </html>
     </>

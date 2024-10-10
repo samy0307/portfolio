@@ -22,7 +22,12 @@ export default function UserForm() {
       </p>
       <Form {...form}>
         <form
-          onSubmit={form.handleSubmit((data) => console.log(data))}
+          onSubmit={(e) => {
+            e.preventDefault();
+            const data = form.getValues();
+            const mailtoLink = `mailto:${data.email}?subject=Kontaktanfrage&body=Name: ${data.name}%0A%0ANachricht:%0A${data.message}`;
+            window.location.href = mailtoLink;
+          }}
           className="space-y-6"
         >
           <FormField

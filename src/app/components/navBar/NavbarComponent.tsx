@@ -7,7 +7,7 @@ import NavmenuItem from "./NavBarMenuItem";
 import { faHouse, faRocket } from "@fortawesome/free-solid-svg-icons";
 import { ModeToggle } from "./ThemeToggle";
 
-export default function NavbarCenter() {
+export default function Navbar() {
   return (
     <div className="p-5 flex justify-center gap-16">
       <div className="px-4 py-2 rounded transition-transform transform duration-200 hover:scale-105 hover:translate-y-[-2px]">

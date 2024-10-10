@@ -17,9 +17,9 @@ export function ModeToggle() {
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
       >
         {theme === "light" ? (
-          <Sun className="h-7 w-7" />
+          <Sun className="h-10 w-10" />
         ) : (
-          <Moon className="h-7 w-7" />
+          <Moon className="h-10 w-10" />
         )}
       </Button>
     </div>

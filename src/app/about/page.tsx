@@ -1,7 +1,11 @@
+import AboutMe from "./AboutMe";
+import TechStack from "./TechStack";
+
 export default function Home() {
   return (
     <div>
-      <h1>About Me</h1>
+      <AboutMe />
+      <TechStack />
     </div>
   );
 }
