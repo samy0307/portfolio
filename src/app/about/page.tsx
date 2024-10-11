@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div>
       <AboutMe />
+
       <TechStack />
     </div>
   );

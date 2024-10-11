@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { LampDemo } from "../components/LampDemo";
 
 export default function TechStack() {
   return (

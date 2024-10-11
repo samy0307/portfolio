@@ -1,7 +1,9 @@
+import { LampDemo } from "../components/LampDemo";
+
 export default function Home() {
   return (
     <div>
-      <h1>Projects</h1>
+      <LampDemo />
     </div>
   );
 }
