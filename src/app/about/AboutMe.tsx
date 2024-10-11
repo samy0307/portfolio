@@ -16,7 +16,7 @@ export default function AboutMe() {
           alt="profile"
           width={300}
           height={300}
-          className="rounded-xl object-cover w-full h-auto max-w-xs md:max-w-md"
+          className="rounded-xl object-cover max-w-xs md:max-w-md"
         />
       </div>
 

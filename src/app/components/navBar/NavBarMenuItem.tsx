@@ -14,7 +14,7 @@ export default function NavmenuItem(props: NavMenuProps) {
     <Link href={props.href} className="grid justify-items-center">
       <div>{props.title}</div>
       <div>
-        <FontAwesomeIcon icon={props.icon} className="h-7" />
+        <FontAwesomeIcon icon={props.icon} className="h-5" />
       </div>
     </Link>
   );

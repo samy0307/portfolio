@@ -1,9 +1,5 @@
-import { LampDemo } from "../components/LampDemo";
+import React from "react";
 
 export default function Home() {
-  return (
-    <div>
-      <LampDemo />
-    </div>
-  );
+  return <div>jfdgs</div>;
 }

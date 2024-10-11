@@ -1,12 +1,11 @@
+import { LampDemo } from "./LampDemo";
 import AboutMe from "./AboutMe";
-import TechStack from "./TechStack";
 
 export default function Home() {
   return (
     <div>
       <AboutMe />
-
-      <TechStack />
+      <LampDemo />
     </div>
   );
 }
