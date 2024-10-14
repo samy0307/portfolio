@@ -12,7 +12,7 @@ export default function ProfilePic() {
       />
       <div className="p-5">
         <p className="text-3xl">Abdulsamet Sevimli</p>
-        <p className="text-xl">Web Developer</p>
+        <p className="text-xl">Junior Web Developer</p>
       </div>
     </div>
   );

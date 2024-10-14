@@ -14,7 +14,6 @@ export default function MyContactData() {
 
       <div className="border p-4 rounded-md shadow-sm">
         <h3 className="text-lg font-semibold mb-2">Address:</h3>
-        <p>Hauptstraße 27</p>
         <p>6973 Höchst</p>
         <p>Vorarlberg, Austria</p>
       </div>

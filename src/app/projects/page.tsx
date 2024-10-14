@@ -1,5 +1,11 @@
 import React from "react";
 
+import { EvervaultCard } from "@/components/ui/evervault-card";
+
 export default function Home() {
-  return <div>jfdgs</div>;
+  return (
+    <div>
+      <EvervaultCard />
+    </div>
+  );
 }

@@ -54,7 +54,7 @@ export function LampDemo() {
           <div className="text-center">
             <p className="p-2">Next.JS</p>
             <Image
-              src="/images/nextjs.png"
+              src="/images/nextjswhite.png"
               alt="nextjs"
               width={50}
               height={50}
@@ -64,7 +64,7 @@ export function LampDemo() {
           <div className="text-center">
             <p className="p-2">Prisma ORM</p>
             <Image
-              src="/images/prisma.png"
+              src="/images/prismawhite.png"
               alt="prisma"
               width={50}
               height={50}
@@ -94,7 +94,7 @@ export function LampDemo() {
           <div className="text-center">
             <p className="p-2">GitHub</p>
             <Image
-              src="/images/github.png"
+              src="/images/githubwhite.png"
               alt="github"
               width={50}
               height={50}

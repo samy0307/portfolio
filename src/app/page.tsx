@@ -1,5 +1,7 @@
+import { StarsBackground } from "@/components/ui/stars-background";
 import ProfilePic from "./components/ProfileSection/Profile";
 import SocialMediaSection from "./components/ProfileSection/SocialMediaSection";
+import { ShootingStars } from "@/components/ui/shooting-stars";
 
 export default function Home() {
   return (

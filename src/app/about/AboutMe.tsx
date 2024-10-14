@@ -1,3 +1,6 @@
+"use client";
+
+import { BackgroundGradient } from "@/components/ui/background-gradient";
 import {
   faCalendarDays,
   faEnvelopeOpenText,
@@ -11,13 +14,15 @@ export default function AboutMe() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 p-5 md:p-10 gap-10">
       <div className="col-span-1 flex justify-center">
-        <Image
-          src="/images/ProfilePic.jpg"
-          alt="profile"
-          width={300}
-          height={300}
-          className="rounded-xl object-cover max-w-xs md:max-w-md"
-        />
+        <BackgroundGradient className="rounded-[22px]  p-4 bg-white dark:bg-zinc-900">
+          <Image
+            src="/images/ProfilePic.jpg"
+            alt="profile"
+            width={420}
+            height={400}
+            className="rounded-xl object-cover max-w-xs md:max-w-md"
+          />
+        </BackgroundGradient>
       </div>
 
       <div className="col-span-1 md:col-span-2 py-5 md:py-12">

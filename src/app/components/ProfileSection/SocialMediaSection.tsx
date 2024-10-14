@@ -8,7 +8,7 @@ import {
 
 export default function SocialMediaSection() {
   return (
-    <div className="flex space-x-4">
+    <div className="flex space-x-4 z-auto">
       <a
         href="https://www.linkedin.com/in/sevimli-abdulsamet-191a06305/"
         target="_blank"
