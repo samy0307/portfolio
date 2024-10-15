@@ -1,32 +1,85 @@
+"use client";
+
 import React from "react";
 import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
+import { Button } from "@/components/ui/button";
 
 export function EvervaultCardDemo() {
   return (
-    <div className="border border-black/[0.2] dark:border-white/[0.2] bg-white dark:bg-zinc-800 flex flex-col items-start max-w-sm mx-auto p-6 relative rounded-lg shadow-lg">
-      {/* Icons in den Ecken */}
-      <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
-      <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
-      <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
-      <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+    <div className="flex justify-center p-14 text-center">
+      <div className="grid grid-cols-1 gap-16 md:grid-cols-3">
+        <div className="border border-black/[0.2] dark:border-white/[0.2] bg-white dark:bg-zinc-800 flex flex-col items-start max-w-sm p-4 relative rounded-lg shadow-lg mx-auto">
+          <EvervaultCard text="Resume" className="w-full" />
 
-      {/* Evervault Card */}
-      <EvervaultCard text="hover" className="w-full" />
+          <Button
+            className=" mt-8 w-64 px-6 py-3 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-purple-600 hover:to-purple-800 transform hover:scale-105 transition duration-300 ease-in-out"
+            onClick={() => window.open("/images/lebenslauf.pdf", "_blank")}
+          >
+            View Resume
+          </Button>
+        </div>
 
-      {/* Beschreibungstext */}
-      <h2 className="dark:text-white text-black mt-6 text-lg font-semibold">
-        Hover over this card to reveal an awesome effect
-      </h2>
+        <div className="border border-black/[0.2] dark:border-white/[0.2] bg-white dark:bg-zinc-800 flex flex-col items-start max-w-sm p-6 relative rounded-lg shadow-lg">
+          <EvervaultCard text="Motivation Letter" className="w-full" />
 
-      {/* Zusätzlicher Text */}
-      <p className="text-sm font-light dark:text-gray-300 text-gray-700 mt-2">
-        Running out of copy here. This is just a demo of a hover effect card.
-      </p>
+          <Button
+            className="w-64 px-6 py-3 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-purple-600 hover:to-purple-800 transform hover:scale-105 transition duration-300 ease-in-out"
+            onClick={() => window.open("/images/motivation.pdf", "_blank")}
+          >
+            View
+          </Button>
+        </div>
 
-      {/* Hover Button */}
-      <button className="text-sm border font-light dark:border-white/[0.2] border-black/[0.2] rounded-full mt-4 text-black dark:text-white px-3 py-1.5 hover:bg-gray-100 dark:hover:bg-zinc-700">
-        Watch me hover
-      </button>
+        <div className="border border-black/[0.2] dark:border-white/[0.2] bg-white dark:bg-zinc-800 flex flex-col items-start max-w-sm p-6 relative rounded-lg shadow-lg">
+          <EvervaultCard text="Diplom" className="w-full" />
+
+          <Button
+            className="w-64 px-6 py-3 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-purple-600 hover:to-purple-800 transform hover:scale-105 transition duration-300 ease-in-out"
+            onClick={() => window.open("/images/diplom.pdf", "_blank")}
+          >
+            View Project
+          </Button>
+        </div>
+
+        <div className="border border-black/[0.2] dark:border-white/[0.2] bg-white dark:bg-zinc-800 flex flex-col items-start max-w-sm p-6 relative rounded-lg shadow-lg">
+          <EvervaultCard text="Project 3" className="w-full" />
+          <h2 className="dark:text-white text-black p-4 text-lg font-semibold">
+            Details about Project 3.
+          </h2>
+          <Button
+            className="w-64 px-6 py-3 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-purple-600 hover:to-purple-800 transform hover:scale-105 transition duration-300 ease-in-out"
+            onClick={() => window.open("/images/project3.pdf", "_blank")}
+          >
+            View Project
+          </Button>
+        </div>
+
+        <div className="border border-black/[0.2] dark:border-white/[0.2] bg-white dark:bg-zinc-800 flex flex-col items-start max-w-sm p-6 relative rounded-lg shadow-lg">
+          <EvervaultCard text="Project 4" className="w-full" />
+          <h2 className="dark:text-white text-black p-4 text-lg font-semibold">
+            Details about Project 4.
+          </h2>
+          <Button
+            className="w-64 px-6 py-3 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-purple-600 hover:to-purple-800 transform hover:scale-105 transition duration-300 ease-in-out"
+            onClick={() => window.open("/images/project4.pdf", "_blank")}
+          >
+            View Project
+          </Button>
+        </div>
+
+        <div className="border border-black/[0.2] dark:border-white/[0.2] bg-white dark:bg-zinc-800 flex flex-col items-start max-w-sm p-6 relative rounded-lg shadow-lg">
+          <EvervaultCard text="Project 5" className="w-full" />
+          <h2 className="dark:text-white text-black p-4 text-lg font-semibold">
+            Details about Project 5.
+          </h2>
+          <Button
+            className="w-64 px-6 py-3 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-purple-600 hover:to-purple-800 transform hover:scale-105 transition duration-300 ease-in-out"
+            onClick={() => window.open("/images/project5.pdf", "_blank")}
+          >
+            View Project
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }

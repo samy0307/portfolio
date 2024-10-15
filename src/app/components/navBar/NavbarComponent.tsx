@@ -1,8 +1,4 @@
-import {
-  faAddressCard,
-  faFileLines,
-  faUser,
-} from "@fortawesome/free-regular-svg-icons";
+import { faAddressCard, faUser } from "@fortawesome/free-regular-svg-icons";
 import NavmenuItem from "./NavBarMenuItem";
 import { faHouse, faRocket } from "@fortawesome/free-solid-svg-icons";
 import { ModeToggle } from "./ThemeToggle";
@@ -16,9 +12,7 @@ export default function Navbar() {
       <div className=" py-2  transition-transform transform duration-200 hover:scale-105 hover:translate-y-[-2px]">
         <NavmenuItem title="About" href="/about" icon={faUser} />
       </div>
-      <div className=" py-2  transition-transform transform duration-200 hover:scale-105 hover:translate-y-[-2px]">
-        <NavmenuItem title="Resume" href="/resume" icon={faFileLines} />
-      </div>
+
       <div className="py-2  transition-transform transform duration-200 hover:scale-105 hover:translate-y-[-2px]">
         <NavmenuItem title="Projects" href="/projects" icon={faRocket} />
       </div>
