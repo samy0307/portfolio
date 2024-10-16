@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --background: 0 0% 95%; /* Heller Grauton anstelle von reinem Weiß */
+    --foreground: 222.2 84% 10%; /* Dunklere Schriftfarbe */
+    --card: 0 0% 95%; /* Heller Grauton für Karten */
+    --card-foreground: 222.2 84% 10%; /* Dunklere Schriftfarbe für Karten */
+    --popover: 0 0% 95%; /* Heller Grauton für Popover */
+    --popover-foreground: 222.2 84% 10%; /* Dunklere Schriftfarbe für Popover */
+    --primary: 222.2 47.4% 15%; /* Dunklere Primärfarbe */
+    --primary-foreground: 210 40% 95%; /* Hellerer Text für Primärfarbe */
+    --secondary: 210 40% 90%; /* Etwas dunklerer Sekundärton */
+    --secondary-foreground: 222.2 47.4% 15%; /* Dunklere Schriftfarbe für Sekundärton */
+    --muted: 210 40% 90%; /* Heller Grauton */
+    --muted-foreground: 215.4 16.3% 40%; /* Dunklere Schriftfarbe für gedämpften Text */
+    --accent: 210 40% 90%; /* Heller Grauton für Akzent */
+    --accent-foreground: 222.2 47.4% 15%; /* Dunklere Schriftfarbe für Akzent */
+    --destructive: 0 84.2% 50%; /* Etwas dunklere destructive Farbe */
+    --destructive-foreground: 210 40% 95%; /* Hellerer Text für destructive Farbe */
+    --border: 214.3 31.8% 85%; /* Dunklere Borderfarbe */
+    --input: 214.3 31.8% 85%; /* Dunklere Inputfarbe */
+    --ring: 222.2 84% 10%; /* Dunklere Ringfarbe */
     --radius: 0.5rem;
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;

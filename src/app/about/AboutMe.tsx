@@ -12,7 +12,7 @@ import Image from "next/image";
 
 export default function AboutMe() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 p-5 md:p-10 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-3 p-5 md:p-6 gap-10">
       <div className="col-span-1 flex justify-center">
         <BackgroundGradient className="rounded-[22px]  p-4 bg-white dark:bg-zinc-900">
           <Image
