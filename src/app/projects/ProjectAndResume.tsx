@@ -72,7 +72,9 @@ export function EvervaultCardDemo() {
 
           <Button
             className="w-64 px-6 py-3 bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-800 "
-            onClick={() => window.open("/images/project5.pdf", "_blank")}
+            onClick={() =>
+              window.open("https://finance-app-nu-one.vercel.app/")
+            }
           >
             View
           </Button>

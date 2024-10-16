@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/moving-border";
+import { Button } from "@/components/ui/button";
 
 export default function UserForm() {
   const form = useForm();
@@ -76,11 +76,8 @@ export default function UserForm() {
             )}
           />
 
-          <Button
-            borderRadius="1.75rem"
-            className=" bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-800 "
-          >
-            Borders are cool
+          <Button className="w-64 px-6 py-3 bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 text-white text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-800 ">
+            Send Email
           </Button>
         </form>
       </Form>
