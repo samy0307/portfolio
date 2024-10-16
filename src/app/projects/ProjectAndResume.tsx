@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
+import { EvervaultCard } from "@/components/ui/evervault-card";
 import { Button } from "@/components/ui/button";
 
 export function EvervaultCardDemo() {
