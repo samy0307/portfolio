@@ -24,11 +24,7 @@ export default function SandwichMenu() {
         <DrawerContent className="sm:hidden">
           <Navbar />
           <DrawerFooter>
-            <DrawerClose>
-              <Button variant="outline" onClick={() => setIsOpen(false)}>
-                Cancel
-              </Button>
-            </DrawerClose>
+            <DrawerClose></DrawerClose>
           </DrawerFooter>
         </DrawerContent>
       </Drawer>

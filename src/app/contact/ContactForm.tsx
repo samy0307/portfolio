@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/moving-border";
 
 export default function UserForm() {
   const form = useForm();
@@ -75,12 +76,12 @@ export default function UserForm() {
             )}
           />
 
-          <button
-            type="submit"
-            className="w-full px-4 py-2 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-700 transition duration-200"
+          <Button
+            borderRadius="1.75rem"
+            className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
-            Send Message
-          </button>
+            Borders are cool
+          </Button>
         </form>
       </Form>
     </div>

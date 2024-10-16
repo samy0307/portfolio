@@ -14,7 +14,7 @@ export default function Navbar() {
       </div>
 
       <div className="py-2  transition-transform transform duration-200 hover:scale-105 hover:translate-y-[-2px]">
-        <NavmenuItem title="Projects" href="/projects" icon={faRocket} />
+        <NavmenuItem title="Work" href="/projects " icon={faRocket} />
       </div>
       <div className=" py-2 transition-transform transform duration-200 hover:scale-105 hover:translate-y-[-2px]">
         <NavmenuItem title="Contact" href="/contact" icon={faAddressCard} />
