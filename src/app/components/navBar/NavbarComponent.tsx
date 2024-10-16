@@ -5,7 +5,7 @@ import { ModeToggle } from "./ThemeToggle";
 
 export default function Navbar() {
   return (
-    <div className="p-2 flex justify-center gap-16">
+    <div className="p-2 flex justify-center gap-12">
       <div className=" py-2  transition-transform transform duration-200 hover:scale-105 hover:translate-y-[-2px]">
         <NavmenuItem title="Home" href="/" icon={faHouse} />
       </div>

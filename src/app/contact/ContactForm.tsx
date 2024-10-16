@@ -17,7 +17,7 @@ export default function UserForm() {
   const form = useForm();
 
   return (
-    <div className=" mt-10 p-6 shadow-lg rounded-lg border">
+    <div className="mt-10 p-6 shadow-lg rounded-lg border">
       <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
       <p className="mb-6">
         Fill out the form to contact me, and I will get back to you soon.
@@ -78,7 +78,7 @@ export default function UserForm() {
 
           <Button
             borderRadius="1.75rem"
-            className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            className=" bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-800 "
           >
             Borders are cool
           </Button>
