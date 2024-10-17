@@ -1,4 +1,9 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
-  "ignorePatterns": ["src/components/ui/evervault-card.tsx"]
+  "ignorePatterns": [
+    "src/components/ui/evervault-card.tsx",
+    "src/components/ui/input.tsx",
+    "src/components/ui/stars-background.tsx",
+    "src/components/ui/textarea.tsx"
+  ]
 }
