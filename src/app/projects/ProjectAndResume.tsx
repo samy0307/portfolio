@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export function EvervaultCardDemo() {
   return (
-    <div className="flex justify-center text-center items-center min-h-screen">
+    <div className="flex justify-center text-center items-center min-h-screen p-6">
       <div className="grid grid-cols-1 gap-16 md:grid-cols-3">
         <div className="border border-black/[0.2] dark:border-white/[0.2]  dark:bg-zinc-800 flex flex-col items-start max-w-sm p-4 relative rounded-lg shadow-lg mx-auto">
           <EvervaultCard text="Resume" className="w-full" />

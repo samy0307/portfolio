@@ -4,7 +4,7 @@ import MyContactData from "./MyContactData";
 export default function Home() {
   return (
     <div className="flex items-center justify-center h-screen p-4">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-20 mt-32 md:mt-1">
         <div className="col-span-1">
           <MyContactData />
         </div>
